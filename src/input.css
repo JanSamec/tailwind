@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@theme {
+    --font-main: "Work Sans", sans-serif;
+    --font-title: "Crimson Text", serif;
+
+    --color-mgreen-100: oklch(0.76 0.1008 160.95);
+    --color-white-100: oklch(1 0 0);
+    --color-dark-100: oklch(0.26 0.0095 248.19);
+}
