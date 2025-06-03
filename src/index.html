@@ -7,32 +7,128 @@
     <link href="./output.css" rel="stylesheet">
 
 </head>
-<body>
-<div>
- <div class="flex bg-mgreen-100" >
-    <div class="font-main text-white-100 align-top mt-2 h-10"  >
-        <div class="">
-            <img src="/imgs/Logo.png" alt="logo">
-            <h1 class="text-4xl font-medium">Start</h1>
+    <body class="font-main text-black">
+    <!-- Header -->
+    <header class="bg-mgreen-100">
+  <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
+    <div class="flex items-center space-x-3">
+      <img src="/imgs/Logo.png" alt="logo" class="h-8" />
+      <h1 class="text-white font-bold text-xl">Start</h1>
+    </div>
+    <nav class="hidden md:flex space-x-6 text-white">
+      <a href="#">Home</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+    <img src="/imgs/list 1.png" alt="menu" class="md:hidden">
+  </div>
+</header>
+
+    <!-- Hero -->
+    <section class="bg-mgreen-100 py-12">
+      <div class="max-w-7xl mx-auto px-4 flex flex-col-reverse md:flex-row items-center gap-8">
+        <div class="md:w-1/2 text-center md:text-left text-white">
+          <h2 class="uppercase tracking-widest text-sm mb-2">Welcome</h2>
+          <h1 class="text-4xl font-title mb-4">Lorem ipsum dolor sit amet consectetur</h1>
+          <p class="mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos.</p>
+          <button class="bg-white text-black px-6 py-2 rounded font-extralight">Explore</button>
         </div>
-        <div class=" xl:gap-7 lg:gap-6 font-normal">
-            <a href="www.home.com" >Home</a>
-            <a href="www.portfolio.com" >Porfolio</a>
-            <a href="www.service.com" >Services</a>
-            <a href="www.contact.com" >Contact</a>
+        <div class="md:w-1/2">
+          <img src="/imgs/Groups/Group.png" alt="Hero" class="w-full max-w-sm mx-auto" />
         </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="py-10 bg-white text-center px-4">
+  <h3 class="uppercase text-mgreen-100 tracking-widest mb-2">Partners</h3>
+  <h2 class="text-2xl font-title font-bold mb-2">Lorem Ipsum Dolor</h2>
+  <p class="mb-8 font-title">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+  <div class=" grid max-w-7xl grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 justify-items-center items-center mb-8">
+    <img src="/imgs/Logos/google.png" class="h-8 object-contain" />
+    <img src="/imgs/Logos/Microsoft.png" class="h-8 object-contain" />
+    <img src="/imgs/Logos/airbnb.png" class="h-8 object-contain" />
+    <img src="/imgs/Logos/fb.png" class="h-8 object-contain" />
+    <img src="/imgs/Logos/spotify.png" class="h-8 object-contain" />
+  </div>
+  <button class="bg-dark-100 text-white px-6 py-2 rounded">Learn More</button>
+</section>
+
+    <!-- Features Section 1 -->
+    <section class="py-10 bg-white px-8">
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-8">
+    <div class="md:w-1/2">
+      <img src="/imgs/Groups/Group (2).png" alt="Feature" class="w-full max-w-md mx-auto object-contain" />
     </div>
-    <div class="flex lg:flex-row sm:flex-col-reverse">
-    <div>
-        <h2 class="font-main">WELCOME</h2>
-        <h1 class="font-title">Lorem ipsum dolor sit amet consectetur</h1>
-        <p class="font-main font-normal">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-        <button>Explore</button>
+    <div class="md:w-1/2 text-center md:text-left">
+      <h2 class="text-2xl font-bold mb-4">Lorem ipsum dolor sit amet consectetur</h2>
+      <p class="mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+      <button class="bg-dark-100 text-white px-6 py-2 rounded">Learn More</button>
     </div>
-    <div>
-        <img src="/imgs/Groups/Group.png" alt="Group">
+  </div>
+</section>
+    <!-- Features Section 2 -->
+    <section class="py-16 bg-white px-4">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row-reverse items-center gap-8">
+        <div class="md:w-1/2">
+          <img src="/imgs/Groups/Group (3).png" alt="Feature 2" class="w-full max-w-md mx-auto" />
+        </div>
+        <div class="md:w-1/2 text-center md:text-left">
+          <h2 class="text-2xl font-bold mb-4">Lorem ipsum dolor sit amet consectetur</h2>
+          <p class="mb-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <button class="bg-dark-100 text-white px-6 py-2 rounded">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Talents -->
+    <section class="py-16 bg-white text-center px-4">
+      <h3 class="uppercase text-mgreen-100 tracking-widest mb-2">Team</h3>
+      <h2 class="text-2xl font-bold mb-2">Our Talents</h2>
+      <p class="mb-8">Lorem ipsum, dolor sit amet consectetur.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+        <div class="border p-4 rounded shadow-sm">
+          <img src="/imgs/People/p1.png" class="rounded-full mx-auto mb-2" />
+          <h4 class="font-bold">Peg Legge</h4>
+          <p class="text-sm text-black">CEO</p>
+        </div>
+        <div class="border p-4 rounded shadow-sm">
+          <img src="/imgs/People/p2.png" class="rounded-full mx-auto mb-2" />
+          <h4 class="font-bold">Richard Guerra</h4>
+          <p class="text-sm text-black">CTO</p>
+        </div>
+        <div class="border p-4 rounded shadow-sm">
+          <img src="/imgs/People/p3.png" class="rounded-full mx-auto mb-2" />
+          <h4 class="font-bold">Alexandra Stolz</h4>
+          <p class="text-sm text-black">Designer</p>
+        </div>
+        <div class="border p-4 rounded shadow-sm">
+          <img src="/imgs/People/p4.png" class="rounded-full mx-auto mb-2" />
+          <h4 class="font-bold">Janet Bray</h4>
+          <p class="text-sm text-black">Developer</p>
+        </div>
+      </div>
+      <button class="bg-dark-100 text-white px-6 py-2 rounded">View Team</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-mgreen-100 text-white py-8 px-6">
+  <div class="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-6">
+    <!-- Social Placeholder Icons -->
+    <div class="grid grid-cols-7 gap-4 justify-items-center">
+      <img src="/imgs/sm/fbsm.png" class="h-4">
+      <img src="/imgs/sm/igsm.png" class="h-4" >
+      <img src="/imgs/sm/xsm.png" class="h-4" >
+      <img src="/imgs/sm/pntsm.png" class="h-4" >
+      <img src="/imgs/sm/tksm.png" class="h-4" >
+      <img src="/imgs/sm/wsm.png" class="h-4" >
+      <img src="/imgs/sm/ytsm.png" class="h-4">
     </div>
-    </div>
- </div>   
+
+    <!-- Rights -->
+    <p class="text-sm text-center lg:text-right">© Start, 2022. All rights reserved.</p>
+  </div>
+</footer>
 </body>
 </html>
