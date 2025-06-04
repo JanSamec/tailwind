@@ -3,7 +3,7 @@
 @theme {
     --font-main: "Work Sans", sans-serif;
     --font-title: "Crimson Text", serif;
-
+    
     --tracking-widemax: 0.3125rem;
     --color-gray-100: oklch(0.6484 0 278);
     --color-mgreen-100: oklch(0.76 0.1008 160.95);
